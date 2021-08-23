@@ -8,27 +8,36 @@ Proximamente será un archivo ejecutable, pero por ahora deberás bajar el EmoTw
 Deberás crear un archivo config.py donde debes colocar:
 
 server = 'irc.chat.twitch.tv'
+
 port = 6667
+
 nickname = 'lacuentabot'
+
 token = 'oauth:eltokendelacuentabot'
+
 channel = '#elcanaldondeseharálaclasificación'
+
 
 ### Pre-requisitos 
 
 EmoTwitchChatBot usa las siguientes librerías:
 
--socket (para conectar con el API de twitch)
--re (para decoding)
--classifier (para la clasificacion de los sentimientos de los mensajes del chat con SentimentClassifier)
--time (clock para contar el tiempo)
+- socket (para conectar con el API de twitch)
+
+- re (para decoding)
+
+- classifier (para la clasificacion de los sentimientos de los mensajes del chat con SentimentClassifier)
+
+- time (clock para contar el tiempo)
+
 
 ### Instalación 
 
 No requiere instalación.
 
-## Autores ✒️
+## Autores 
 
-## Licencia 📄
+## Licencia 
 
 
 
