@@ -5,30 +5,32 @@ La idea principal es monitorear el chat para hacer diferentes cosas.
 
 ## Comenzando 
 
-Deberás crear un archivo config.py donde debes colocar:
+Deberás crear un archivo config.ini de la siguiente forma:
 
-server = 'irc.chat.twitch.tv'
+server = irc.chat.twitch.tv
 
 port = 6667
 
-nickname = 'lacuentabot'
+nickname = lacuentabot
 
-token = 'oauth:eltokendelacuentabot'
+token = oauth:eltokendelacuentabot
 
-channel = '#elcanaldondeseharálaclasificación'
+channel = #elcanaldondeseharálaclasificación
 
 
 ### Pre-requisitos 
 
 EmoTwitchChatBot usa las siguientes librerías:
 
-- socket (para conectar con el API de twitch)
+- configparser para leer el archivo config.ini
 
-- re (para decoding)
+- socket para conectar con el API de twitch
 
-- classifier (para la clasificacion de los sentimientos de los mensajes del chat con SentimentClassifier)
+- re para decoding
 
-- time (clock para contar el tiempo)
+- sentiment_analysis_spanish de sentiment_analysis (para la clasificacion de los sentimientos de los mensajes del chat)
+
+- time (para contar el tiempo)
 
 
 ### Instalación 
