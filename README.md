@@ -1,10 +1,10 @@
-# EmoTwitchChatBot
+# VitoIA (antes EmoTwitchChatBot)
 
-Evalúa las emociones de los mensajes de chat de un canal de twitch en directo.
+Proyecto personal para atender directos de twitch mientras trabajo.
+La idea principal es monitorear el chat para hacer diferentes cosas.
 
 ## Comenzando 
 
-Proximamente será un archivo ejecutable, pero por ahora deberás bajar el EmoTwitchChatbot.py y ejecutarlo desde la consola con python. 
 Deberás crear un archivo config.py donde debes colocar:
 
 server = 'irc.chat.twitch.tv'
